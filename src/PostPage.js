@@ -15,7 +15,7 @@ const PostPage = () => {
     //const post = posts.find(x => (x.id).toString() === id);
     const post = getPostById(id);
 
-    const handleDelete = async (id) => {
+    const handleDelete = /*async*/ (id) => {
         // try {
         //   await api.delete(`/posts/${id}`);
         //   const postsList = posts.filter(x => x.id !== id);
